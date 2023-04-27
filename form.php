@@ -11,7 +11,7 @@ if (isset($_POST['submit']))
      $fathername=$_POST['fathername'];
      $email=$_POST['email'];
      $pwd=MD5($_POST['pwd']);
-     $age=$_POST['age'];
+     $age=$_POST['age']; 
      $phone=$_POST['phone'];
      $streetaddress=$_POST['streetaddress'];
      $postalcode=$_POST['postalcode'];
